@@ -201,12 +201,6 @@ You AI you.
                   total_length=total_length,
                   offset=offset,
                   ),
-#             dict(artist="Ella Fitzgerald",
-#                  genre="Jazz",
-#                  lyrics=gpt_2_lyrics['count'],
-#                  total_length=total_length,
-#                  offset=offset,
-#                  ),
              ]
     while len(metas) < hps.n_samples:
         metas.extend(metas)
